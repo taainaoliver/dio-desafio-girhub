@@ -1,0 +1,29 @@
+ Git e GitHub
+não são a mesma coisa
+- o Git é um sistema de versionamento de código
+- GitHub vai armazenando o código na nuvem
+
+ Git
+é um CLI (Command Line Interface - usa linha de comando)
+Comandos básicos: mudar pastas, listar pastas, criar pastas/arquivos e deletar
+No Windows (cmd - terminal):
+- cd - navegar entre as pastas e uma pasta específica
+- cls - limpa o terminal do cmd
+- dir - lista todas as pastas e arquivos dentro do pc 
+-mkdir - criar a pasta/diretório 
+- del - apaga arquivo dentro da pasta
+- rmdir - apaga a pasta
+TAB vai autocompletar a digitação
+criar arquivo: c:user\nomedapasta> echo blablabla > blablabla.txt
+
+  Como GIT funciona por baixo dos panos
+SHA - significa Secure Hash Algorithm é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA)
+- vai embaralhar o arquivo de uma forma bem específica 
+os dados de encriptação gera um conjunto de caracteres de 40 dígitos e é único, serve de idenficação
+- é uma forma curta de representar um arquivo
+
+Objetos internos do Git (BLOBS, TREES and COMMITS)
+
+- git init
+- git add
+- git commit
